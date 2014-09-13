@@ -1,4 +1,4 @@
-tmuxconf
+config_files
 ========
 
-simple vim like .tmux.conf file, scrapped together from the internet. 
+Random config files for a Linux development enivirnment, scrapped from the internet and otherwise. 
