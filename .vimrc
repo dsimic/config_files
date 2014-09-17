@@ -51,7 +51,10 @@ Bundle 'scrooloose/nerdtree'
 " Vim.PEP8
 Bundle 'nvie/vim-pep8'
 
-" Vim.Pyflakes
-Bundle 'nvie/vim-pyflakes'
-
+" Vim.syntastic
+Bundle 'scrooloose/syntastic'
+" Turn checker off as default, as it is sloowwww.
+let g:syntastic_mode_map = {'mode': 'passive', 'active_filetypes': [], 'passive_filetypes': []}
+" noremap to quickly toggle checker on off.
+nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 " }}} Plugins
