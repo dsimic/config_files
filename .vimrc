@@ -1,4 +1,7 @@
+" Misc house-keeping
 set noswapfile
+set noerrorbells
+set vb t_vb=
 
 " Coding
 set textwidth=79  " lines longer than 79 columns will be broken
