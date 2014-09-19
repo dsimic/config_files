@@ -14,3 +14,6 @@ fi
 export WORKON_HOME="${ZDOTDIR:-$HOME}/Envs"
 mkdir -p $WORKON_HOME
 source /usr/local/bin/virtualenvwrapper.sh
+
+# turn off noclobber protection
+set -o clobber
