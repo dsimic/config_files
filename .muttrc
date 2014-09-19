@@ -1,0 +1,13 @@
+# A basic muttrc for use with Gmail
+
+# Change the following six lines to match your gmail details
+set imap_user = "YourGmailAddress" 
+# disable password, mutt will prompt
+# set imap_pass = ""
+set smtp_url = "smtp://YourGmailUserName@smtp.gmail.com:587"
+# set smtp_pass = ""
+set from = "YourGmailAddress"
+set realname = "YourName"
+
+# Set editor
+set editor = "vim"
