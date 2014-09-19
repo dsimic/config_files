@@ -13,3 +13,5 @@ if [ -f $TMUXCONF_HOME ]; then
     cp $TMUXCONF_HOME ${TMUXCONF_HOME}.old
 fi
 cp .tmux.conf ${TMUXCONF_HOME}
+
+# no .muttrc install, as requires customization
