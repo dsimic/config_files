@@ -16,3 +16,6 @@ cp .tmux.conf ${TMUXCONF_HOME}
 
 
 # no .muttrc install, as requires customization
+
+# random git config
+git config --global push.default matching
