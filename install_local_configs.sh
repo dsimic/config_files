@@ -14,6 +14,13 @@ if [ -f $TMUXCONF_HOME ]; then
 fi
 cp .tmux.conf ${TMUXCONF_HOME}
 
+# install zshrc
+ZSHRC=~/.zshrc
+if [ -f $ZSHRC ]; then
+    cp $ZSHRC ${ZSHRC}.old
+fi
+cp .zshrc $ZSHRC
+
 
 # no .muttrc install, as requires customization
 
