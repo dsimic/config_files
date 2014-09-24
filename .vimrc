@@ -27,6 +27,9 @@ call vundle#rc()
 
 Plugin 'gmarik/vundle'
 
+" Python-mode
+Bundle 'klen/python-mode'
+
 " EasyMotion plugin
 Bundle 'Lokaltog/vim-easymotion'
 
