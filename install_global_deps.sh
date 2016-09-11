@@ -1,8 +1,9 @@
-apt-get -y update
-apt-get -y upgrade
-apt-get -y install python-pip git tmux vim zsh mutt python-dev
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install python-pip git tmux vim zsh mutt python-dev
 # install virtualenvwrapper
-pip install -U virtualenvwrapper
+sudo pip install -U pip
+sudo pip install -U virtualenvwrapper
 # get original user
 ORIG_USER=`who am i | awk '{print $1}'`
 echo $ORIG_USER
