@@ -8,8 +8,3 @@ sudo pip install -U pip
 sudo pip install -U virtualenvwrapper
 sudo pip install -U fabric
 sudo pip install -U ipython
-# get original user
-ORIG_USER=`who am i | awk '{print $1}'`
-echo $ORIG_USER
-# set zsh as default shell
-chsh -s `which zsh` $ORIG_USER
